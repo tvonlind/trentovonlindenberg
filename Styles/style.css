@@ -18,7 +18,7 @@
     text-align: center;
   }
   .container div.sidebar {
-    grid-area: header;
+    grid-area: sidebar;
     text-align: menu;
   }
   .container div.menu {
