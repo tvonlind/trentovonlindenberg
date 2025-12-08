@@ -1,0 +1,19 @@
+css
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "sidebar main";
+  grid-template-columns: 200px auto;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  height: 100vw;
+  background-color: lightgray;
+}
+
+.main {
+  grid-area: main;
+  height: 100vw;
+  background-color: gray;
+}
