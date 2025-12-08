@@ -19,10 +19,10 @@
   }
   .container div.sidebar {
     grid-area: sidebar;
-    text-align: menu;
+    text-align: center;
   }
   .container div.menu {
-    grid-area: menu;
+    grid-area: center;
   }
   .container div.content {
     grid-area: content;
