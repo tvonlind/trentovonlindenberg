@@ -1,25 +1,34 @@
-css
 .container {
-  width: 100%;
-  display: grid;
-  grid-template-areas: "sidebar main";
-  grid-template-columns: 200px auto;
-}
-
-.sidebar {
-  grid-area: sidebar;
-  height: 100vw;
-  background-color: lightgray;
-}
-
-.main {
-  grid-area: main;
-  height: 100vw;
-  background-color: gray;
-}
-
-.footer {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "sidebar content"
+      "menu content"
+      "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 3px;
+    background-color: dodgerblue;
+    padding: 5px;
+  }
+  .container div {
+    background-color: white;
+    padding: 10px;
+  }
+  .container div.header {
+    grid-area: header;
+    text-align: center;
+  }
+  .container div.sidebar {
+    grid-area: header;
+    text-align: center;
+  }
+  .container div.menu {
+    grid-area: menu;
+  }
+  .container div.content {
+    grid-area: content;
+  }
+  .container div.footer {
     grid-area: footer;
-    height: 500vw;
-    background-color: black;
-}
+    text-align: center;  
+  }
