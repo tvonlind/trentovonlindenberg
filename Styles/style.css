@@ -17,3 +17,9 @@ css
   height: 100vw;
   background-color: gray;
 }
+
+.footer {
+    grid-area: footer;
+    height: 500vw;
+    background-color: black;
+}
