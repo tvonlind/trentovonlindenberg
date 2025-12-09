@@ -1,6 +1,7 @@
 .container {
     display: grid;
     grid-template-areas:
+      "homebutton menu"
       "sidebar header"
       "sidebar content"
       "footer footer";
@@ -13,6 +14,18 @@
     background-color: white;
     padding: 10px;
   }
+  .container div.homebutton{
+    background-color: black;
+    color: white;
+    grid-area: homebutton;
+    text-align: left;
+  }
+  .container div.menu {
+    background-color: black;
+    color: white;
+    grid-area: menu;
+    text-align: right;
+  }
   .container div.header {
     grid-area: header;
     text-align: center;
@@ -21,9 +34,6 @@
     background-color: grey;
     grid-area: sidebar;
     text-align: center;
-  }
-  .container div.menu {
-    grid-area: menu;
   }
   .container div.content {
     grid-area: content;
