@@ -21,7 +21,7 @@
   }
   .container div.topnav {
     grid-area: topnav;
-    text-align: center;
+    text-align: right;
   }
   .container div.sidebar {
     background-color: grey;
