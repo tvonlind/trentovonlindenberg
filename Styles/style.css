@@ -20,6 +20,8 @@
     text-align: left;
   }
   .container div.topnav {
+    background-color: black;
+    color: white;
     grid-area: topnav;
     text-align: right;
   }
