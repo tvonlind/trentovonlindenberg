@@ -23,8 +23,7 @@
     background-color: rgb(32, 32, 32);
     color: white;
     grid-area: topnav;
-    text-align: right;
-    vertical-align: center;
+    text-align: center;
   }
   .container div.menu {
     background-color: rgb(32, 32, 32);
