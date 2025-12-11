@@ -14,19 +14,20 @@
     padding: 10px;
   }
   .container div.topbar{
-    background-color: black;
+    background-color: darkgray;
     color: white;
     grid-area: topbar;
-    text-align: left;
+    text-align: center;
   }
   .container div.topnav {
-    background-color: black;
+    background-color: darkgray;
     color: white;
     grid-area: topnav;
     text-align: right;
+    vertical-align: center;
   }
   .container div.menu {
-    background-color: grey;
+    /* background-color: grey; */
     grid-area: menu;
     text-align: center;
   }
@@ -40,3 +41,5 @@
     grid-area: footer;
     text-align: center;  
   }
+/* Link Notes */
+a:visited{color:white}
