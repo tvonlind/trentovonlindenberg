@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas:
       "topbar topbar"
-      "sidebar content"
+      "menu content"
       "footer footer";
     grid-template-columns: 1fr 3fr;
     gap: 3px;
@@ -27,7 +27,7 @@
   } */
   .container div.sidebar {
     background-color: grey;
-    grid-area: sidebar;
+    grid-area: menu;
     text-align: center;
   }
   .container div.content {
