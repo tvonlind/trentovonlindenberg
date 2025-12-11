@@ -32,6 +32,7 @@
   }
   .container div.content {
     grid-area: content;
+    text-align: center;
   }
   .container div.footer {
     background-color: black;
