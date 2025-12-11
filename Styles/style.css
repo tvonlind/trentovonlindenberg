@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-areas:
-      "topbar topbar"
+      "topbar topnav"
       "menu content"
       "footer footer";
     grid-template-columns: 1fr 3fr;
@@ -19,12 +19,12 @@
     grid-area: topbar;
     text-align: left;
   }
-  /* .container div.topnav {
+  .container div.topnav {
     background-color: black;
     color: white;
     grid-area: topnav;
     text-align: right;
-  } */
+  }
   .container div.menu {
     background-color: grey;
     grid-area: menu;
