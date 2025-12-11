@@ -7,27 +7,27 @@
     grid-template-columns: 1fr 3fr;
     gap: 3px;
     /* background-color: dodgerblue; */
-    padding: 5px;
+    /* padding: 5px; */
   }
   .container div {
     background-color: white;
     padding: 10px;
   }
   .container div.topbar{
-    background-color: darkgray;
+    background-color: rgb(32, 32, 32);
     color: white;
     grid-area: topbar;
     text-align: center;
   }
   .container div.topnav {
-    background-color: darkgray;
+    background-color: rgb(32, 32, 32);
     color: white;
     grid-area: topnav;
     text-align: right;
     vertical-align: center;
   }
   .container div.menu {
-    /* background-color: grey; */
+    background-color: rgb(32, 32, 32);
     grid-area: menu;
     text-align: center;
   }
@@ -36,10 +36,14 @@
     text-align: center;
   }
   .container div.footer {
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     color: white;
     grid-area: footer;
     text-align: center;  
   }
 /* Link Notes */
+a:link{color: white}
 a:visited{color:white}
+a:focus{color:whitesmoke}
+a:hover{color: grey}
+a:active{color: black}
