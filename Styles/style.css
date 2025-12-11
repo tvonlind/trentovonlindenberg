@@ -30,6 +30,7 @@
     background-color: rgb(32, 32, 32);
     grid-area: menu;
     text-align: center;
+    vertical-align: center;
   }
   .container div.content {
     grid-area: content;
